@@ -1,0 +1,2 @@
+require('./App/index.jsx');
+

@@ -1,0 +1,82 @@
+.wraper{
+    width: 100%;
+    height: 100%;
+    .header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 70px;
+        background-color: rgba(234, 245, 120, 0.6);
+            #login_in{
+                background-color: rgba(111, 235, 208, 0.5);
+                border: 1px solid rgba(240, 142, 240, 0.66);
+                font-size: 23px;
+                border-radius: 15%;
+                color: grey;
+            }
+            .hide_click_false{
+                border-radius: 15%;
+                background-color: rgba(252, 32, 32, 0.5);
+                font-size: 20px;
+                color: grey;
+            }
+            .hide_click_true{
+                border-radius: 12%;
+                background-color: rgba(18, 199, 245, 0.5);
+                font-size: 20px;
+                color: grey;
+                            }
+        }
+ .content{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 400px;
+    .content_left_true{
+        
+        display: none;
+        
+    }
+        .content_left_false{
+            width: 30%;
+            height: 400px;
+            background-color: rgba(116, 218, 243, 0.6);        
+               
+                    .name_one_true, .name_two_true,.name_one_false, .name_two_false{
+                        text-align: center;
+                    }
+                    .name_one_false, .name_two_false{
+                        color: grey;
+                    
+                    }
+                    .name_one_true, .name_two_true{
+                        color: red;
+                    }
+                    
+                
+        }
+        .content_rigth_true{
+            width: 100%;
+            height: 300px;
+            background-color: rgba(124, 248, 248, 0.5);
+            padding: 50px;
+        }
+    .content_rigth_false{
+        width: 70%;
+        height: 400px;
+        background-color: rgba(113, 248, 113, 0.5);
+
+        #content_rigth_menu{
+            font-size: 30px;
+            padding: 50px;
+            color: grey;
+            text-shadow: 7px 2px 15px white;
+        }
+
+}
+}
+
+}
+ 
+
